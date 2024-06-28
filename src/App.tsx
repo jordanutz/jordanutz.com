@@ -27,7 +27,8 @@ function App() {
           <h2>Senior Front-End Engineer</h2>
           <p>
             Senior Front-End Software Engineer with 5 years of professional
-            experience creating digial experiences architected using Javascript.
+            experience creating digital experiences architected using
+            Javascript.
           </p>
           <Navigation visibleSection={visibleSection} />
           <Social />

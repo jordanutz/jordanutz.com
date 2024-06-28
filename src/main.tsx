@@ -5,6 +5,7 @@ import App from "./App.tsx";
 import "./styles/biography.css";
 import "./styles/cover.css";
 import "./styles/navigation.css";
+import "./styles/index.css";
 import "./styles/reset.css";
 import "./styles/social.css";
 import "./styles/tag.css";
