@@ -1,0 +1,21 @@
+.social {
+  display: flex;
+  font-size: 2rem;
+  gap: 1.25rem;
+  padding-top: 2rem;
+
+  svg {
+    transition: 0.25s;
+    fill: var(--text-color);
+  }
+
+  a:hover {
+    svg {
+      transform: scale(1.25);
+    }
+  }
+
+  @media (min-width: 641px) {
+    padding-top: 0;
+  }
+}

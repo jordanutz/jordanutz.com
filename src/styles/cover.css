@@ -1,0 +1,19 @@
+.cover {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(180deg, #1f07a3d3, #187eec, #ab17a6);
+  color: var(--text-color);
+
+  > div {
+    width: 100%;
+
+    @media (min-width: 641px) {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 6rem;
+      max-width: 1050px;
+      margin: 0 auto;
+    }
+  }
+}

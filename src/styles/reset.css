@@ -1,0 +1,104 @@
+#root {
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow: scroll;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 7.5rem;
+  height: auto;
+
+  @media (min-width: 641px) {
+    gap: 3rem;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-left: 1.5rem;
+
+  p {
+    max-width: 400px;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 641px) {
+    position: sticky;
+    top: 0;
+    max-height: 600px;
+    padding-top: 6rem;
+    padding-left: 0rem;
+  }
+}
+
+a {
+  font-weight: 500;
+  color: inherit;
+  text-decoration: inherit;
+  transition: 0.25s;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.5rem 0;
+  font-family: var(--secondary-font);
+  line-height: 1;
+}
+
+h4,
+h5,
+h6 {
+  letter-spacing: -0.05rem;
+}
+
+p,
+li {
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #000;
+    background-color: #fff;
+  }
+}

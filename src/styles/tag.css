@@ -1,0 +1,12 @@
+.tag {
+  padding: 0.25rem 0.75rem;
+  font-family: var(--tertiary-font);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  color: var(--accent-text-color);
+  background: rgba(200, 215, 254, 0.299);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
