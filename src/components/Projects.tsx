@@ -20,14 +20,15 @@ export function Projects(props: ObservedComponent) {
                 tags={["React", "TypeScript", "JavaScript", "CSS3"]}
                 marker={
                   <picture>
-                    <img src="/images/opengraph.webp" />
+                    <img src="/images/opengraph.webp" alt="" />
                   </picture>
                 }
               >
-                Web application that dynamically generates Open Graph tags using
-                information derived from custom meta keys. Value set for all
-                required open graph tags is derived from its meta counterpart or
-                static placeholders, unless a custom value is set for it.
+                Web application that dynamically generates Open Graph tags by
+                using information derived from custom meta keys. The value is
+                set for all required Open Graph tags based on their meta
+                counterpart or static placeholders, unless a custom value is
+                specified.
               </Card>
               <Card
                 heading="WeatherFi"
@@ -35,15 +36,15 @@ export function Projects(props: ObservedComponent) {
                 tags={["React", "JavaScript", "SCSS", "Axios"]}
                 marker={
                   <picture>
-                    <img src="/images/weather.webp" />
+                    <img src="/images/weather.webp" alt="" />
                   </picture>
                 }
               >
-                Web application that generates the three day weather forecast
-                using the WeatherAPI. The user can search by city and state or
-                zip code to retrieve forecast for their location. Cards used to
-                render the three day forecast, active defaulting to the current
-                date. ​
+                Web application that utilizes the WeatherAPI to generate a
+                three-day weather forecast. Users can search by city and state
+                or zip code to retrieve the forecast for their location. The
+                forecast is displayed across a series of cards, with the default
+                forecast set to the current date.
               </Card>
               <Card
                 heading="React Calculator"
@@ -51,14 +52,14 @@ export function Projects(props: ObservedComponent) {
                 tags={["React", "JavaScript", "SCSS", "HTML5"]}
                 marker={
                   <picture>
-                    <img src="/images/calculator.webp" />
+                    <img src="/images/calculator.webp" alt="" />
                   </picture>
                 }
               >
-                React powered calculator with a stylish and accessible
+                React-powered calculator with a stylish and accessible
                 interface. The expression is not evaluated until explicit
-                computation is triggered by the user subsequent to the selection
-                of an operant. Validation states applied to buttons to ensure
+                computation is triggered by the user after the selection of an
+                operator. Validation states are applied to buttons to ensure
                 that user error is minimized.
               </Card>
               <Card
@@ -67,14 +68,14 @@ export function Projects(props: ObservedComponent) {
                 tags={["React", "TypeScript", "SCSS", "Axios"]}
                 marker={
                   <picture>
-                    <img src="/images/quiz.webp" />
+                    <img src="/images/quiz.webp" alt="" />
                   </picture>
                 }
               >
-                Intuitive trivia game that tests players on their knowledge of
-                video games with questions retrieved from the Open Trivia API.
-                Visual cues are leveraged to alert the player if their selection
-                is correct or incorrect, and their progress is tracked with each
+                "An intuitive trivia game that tests players on their knowledge
+                of video games using questions from the Open Trivia API. Visual
+                cues are used to indicate whether the player's selection is
+                correct or incorrect, and their progress is tracked with each
                 question.
               </Card>
             </ol>
