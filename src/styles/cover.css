@@ -1,9 +1,10 @@
 .cover {
   position: relative;
+  content: "";
   min-height: 100vh;
   display: flex;
-  background: linear-gradient(180deg, #1f07a3d3, #187eec, #ab17a6);
   color: var(--text-color);
+  background: linear-gradient(-75deg, #0c03bff2, #ed1656f8);
 
   > div {
     width: 100%;
@@ -12,7 +13,7 @@
       display: grid;
       grid-template-columns: 1fr 2fr;
       grid-gap: 6rem;
-      max-width: 1050px;
+      max-width: 1000px;
       margin: 0 auto;
     }
   }

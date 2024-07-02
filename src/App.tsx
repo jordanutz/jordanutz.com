@@ -26,9 +26,8 @@ function App() {
           <h1>Jordan Utz</h1>
           <h2>Senior Front-End Engineer</h2>
           <p>
-            Senior Front-End Software Engineer with 5 years of professional
-            experience creating digital experiences architected using
-            Javascript.
+            5 years of professional experience creating digital experiences
+            architected using Javascript.
           </p>
           <Navigation visibleSection={visibleSection} />
           <Social />
@@ -38,6 +37,7 @@ function App() {
           <Experience setInView={setInView} visibleSection={visibleSection} />
           <Projects setInView={setInView} visibleSection={visibleSection} />
         </main>
+        <footer>Test</footer>
       </div>
     </div>
   );
