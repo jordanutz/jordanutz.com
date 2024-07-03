@@ -30,8 +30,8 @@ export function Experience(props: ObservedComponent) {
                 marker={<span>2021 - Present</span>}
               >
                 Drove sales and improved customer shopping experiences by
-                creating efficient, reusable components for the digital
-                authoring experience. Supported broader initiatives within the
+                creating performant, reusable components for the authoring
+                experience. Supported broader initiatives within the
                 organization to reduce technical debt and optimize web
                 performance.
               </Card>

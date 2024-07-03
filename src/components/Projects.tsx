@@ -25,10 +25,9 @@ export function Projects(props: ObservedComponent) {
                 }
               >
                 Web application that dynamically generates Open Graph tags by
-                using information derived from custom meta keys. The value is
-                set for all required Open Graph tags based on their meta
-                counterpart or static placeholders, unless a custom value is
-                specified.
+                using information derived from custom meta keys. The value set
+                for all Open Graph tags is based on their meta counterpart or
+                static placeholders, unless a custom value is specified.
               </Card>
               <Card
                 heading="WeatherFi"
@@ -43,8 +42,8 @@ export function Projects(props: ObservedComponent) {
                 Web application that utilizes the WeatherAPI to generate a
                 three-day weather forecast. Users can search by city and state
                 or zip code to retrieve the forecast for their location. The
-                forecast is displayed across a series of cards, with the default
-                forecast set to the current date.
+                forecast is visualized using a series of cards with current
+                highlighted.
               </Card>
               <Card
                 heading="React Calculator"
@@ -56,11 +55,10 @@ export function Projects(props: ObservedComponent) {
                   </picture>
                 }
               >
-                React-powered calculator with a stylish and accessible
-                interface. The expression is not evaluated until explicit
-                computation is triggered by the user after the selection of an
-                operator. Validation states are applied to buttons to ensure
-                that user error is minimized.
+                React-powered calculator with a stylish user interface. The
+                expression is not evaluated until explicit computation is
+                triggered by the user after the selection of an operator.
+                Validation states are applied to buttons to minimize user error.
               </Card>
               <Card
                 heading="Quiz Time"
@@ -72,7 +70,7 @@ export function Projects(props: ObservedComponent) {
                   </picture>
                 }
               >
-                "An intuitive trivia game that tests players on their knowledge
+                An intuitive trivia game that tests players on their knowledge
                 of video games using questions from the Open Trivia API. Visual
                 cues are used to indicate whether the player's selection is
                 correct or incorrect, and their progress is tracked with each
