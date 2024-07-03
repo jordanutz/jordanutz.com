@@ -45,7 +45,7 @@ function App() {
               <Anchor href="https://code.visualstudio.com/" isExternal>
                 Visual Studio Code
               </Anchor>{" "}
-              under the sunny sides of Cincinnati. Crafted with{" "}
+              under the sunny skies of Cincinnati. Crafted with{" "}
               <Anchor href="https://vitejs.dev/" isExternal>
                 Vite
               </Anchor>{" "}
