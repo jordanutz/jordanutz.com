@@ -20,7 +20,8 @@
       transition: 0.2s;
     }
 
-    li.active {
+    li.active,
+    li:hover {
       transform: scale(1.2);
       margin-left: 5px;
     }

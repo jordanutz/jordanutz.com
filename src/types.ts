@@ -19,8 +19,9 @@ export interface NavigationProps {
 }
 
 export interface NavItemProps extends PropsWithChildren {
-  visibleSection: VisibleSection;
-  id: VisibleSection;
+  visibleSection?: VisibleSection;
+  id?: VisibleSection;
+  linkProps?: AnchorProps;
 }
 
 export interface TagProps {

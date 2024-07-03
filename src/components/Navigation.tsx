@@ -16,6 +16,9 @@ export function Navigation(props: NavigationProps) {
         <NavItem visibleSection={visibleSection} id="projects">
           Projects
         </NavItem>
+        <NavItem linkProps={{ href: "/resume.pdf", isExternal: true }}>
+          Resume
+        </NavItem>
       </ul>
     </nav>
   );

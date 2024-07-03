@@ -53,7 +53,7 @@
       border-radius: 0.25rem;
 
       svg {
-        transform: rotate(-45deg) translate(10px);
+        transform: rotate(-45deg) translate(5px);
       }
     }
 

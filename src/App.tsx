@@ -25,7 +25,7 @@ function App() {
       <div>
         <header>
           <h1>Jordan Utz</h1>
-          <h2>Senior Front-End Engineer</h2>
+          <h2>Front End Software Engineer</h2>
           <p>
             5 years of professional experience creating digital experiences
             architected using Javascript.
