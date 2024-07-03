@@ -16,7 +16,10 @@ export function Projects(props: ObservedComponent) {
             <ol>
               <Card
                 heading="Open Graph Tag Generator"
-                link="https://github.com/jordanutz/open-graph-tag-generator"
+                linkProps={{
+                  href: "https://github.com/jordanutz/open-graph-tag-generator",
+                  isExternal: true,
+                }}
                 tags={["React", "TypeScript", "JavaScript", "CSS3"]}
                 marker={
                   <picture>
@@ -31,7 +34,10 @@ export function Projects(props: ObservedComponent) {
               </Card>
               <Card
                 heading="WeatherFi"
-                link="https://github.com/jordanutz/weatherfi"
+                linkProps={{
+                  href: "https://github.com/jordanutz/weatherfi",
+                  isExternal: true,
+                }}
                 tags={["React", "JavaScript", "SCSS", "Axios"]}
                 marker={
                   <picture>
@@ -47,7 +53,10 @@ export function Projects(props: ObservedComponent) {
               </Card>
               <Card
                 heading="React Calculator"
-                link="https://github.com/jordanutz/react-calculator"
+                linkProps={{
+                  href: "https://github.com/jordanutz/react-calculator",
+                  isExternal: true,
+                }}
                 tags={["React", "JavaScript", "SCSS", "HTML5"]}
                 marker={
                   <picture>
@@ -62,7 +71,10 @@ export function Projects(props: ObservedComponent) {
               </Card>
               <Card
                 heading="Quiz Time"
-                link="https://github.com/jordanutz/quiz-time"
+                linkProps={{
+                  href: "https://github.com/jordanutz/quiz-time",
+                  isExternal: true,
+                }}
                 tags={["React", "TypeScript", "SCSS", "Axios"]}
                 marker={
                   <picture>

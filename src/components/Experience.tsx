@@ -18,7 +18,7 @@ export function Experience(props: ObservedComponent) {
               <Card
                 heading="Senior Front End Engineer"
                 subheading="Kroger Technology & Digital"
-                link="https://www.kroger.com"
+                linkProps={{ href: "https://www.kroger.com", isExternal: true }}
                 tags={[
                   "React",
                   "TypeScript",
@@ -38,7 +38,10 @@ export function Experience(props: ObservedComponent) {
               <Card
                 heading="Front End Developer"
                 subheading="WebstaurantStore"
-                link="https://www.webstaurantstore.com/"
+                linkProps={{
+                  href: "https://www.webstaurantstore.com/",
+                  isExternal: true,
+                }}
                 tags={[
                   "React",
                   "TypeScript",
@@ -58,7 +61,10 @@ export function Experience(props: ObservedComponent) {
               <Card
                 heading="Web Developer"
                 subheading="eLink Design"
-                link="https://www.elinkdesign.com/"
+                linkProps={{
+                  href: "https://www.elinkdesign.com/",
+                  isExternal: true,
+                }}
                 tags={[
                   "JavaScript",
                   "HTML5",
