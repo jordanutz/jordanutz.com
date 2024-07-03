@@ -46,8 +46,14 @@ function App() {
                 Visual Studio Code
               </Anchor>{" "}
               under the sunny sides of Cincinnati. Crafted with{" "}
-              <Anchor href="https://vitejs.dev/ isExternal">Vite</Anchor> using{" "}
-              <Anchor href="https://react.dev/">React</Anchor> and deployed with{" "}
+              <Anchor href="https://vitejs.dev/" isExternal>
+                Vite
+              </Anchor>{" "}
+              using{" "}
+              <Anchor href="https://react.dev/" isExternal>
+                React
+              </Anchor>{" "}
+              and deployed with{" "}
               <Anchor href="https://www.netlify.com/" isExternal>
                 Netlify
               </Anchor>
