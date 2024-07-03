@@ -51,10 +51,12 @@ export function Biography(props: ObservedComponent) {
               deeply invested in what allows me to disconnect from technology
               entirely. I spend my free time exploring new terrains, practicing
               hot yoga, and writing my debut novel. If you think I’d be an
-              excellent fit for an open role you are hiring for, let’s set
-              something up. Currently, I am only considering opportunities that
-              are 100% remote, but I'm willing to make an exception for the
-              right offer.{" "}
+              excellent fit for an open role you are hiring for, let’s{" "}
+              <Anchor href="mailto:jordanutz@outlook.com">
+                set something up
+              </Anchor>
+              . Currently, I am only considering opportunities that are 100%
+              remote, but I'm willing to make an exception for the right offer.{" "}
             </p>
           </section>
         );
