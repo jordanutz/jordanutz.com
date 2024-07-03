@@ -30,8 +30,8 @@ export function Biography(props: ObservedComponent) {
                 DevMountain
               </Anchor>
               , completing their Full Stack Web Development course before
-              powering on a career that has awarded me the opportunity to work
-              at a{" "}
+              powering on a career that has given me the opportunity to work at
+              a{" "}
               <Anchor href="https://www.elinkdesign.com/" isExternal>
                 marketing agency
               </Anchor>
