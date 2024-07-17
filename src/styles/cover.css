@@ -4,7 +4,7 @@
   min-height: 100vh;
   display: flex;
   color: var(--text-color);
-  background: linear-gradient(-75deg, #1796ebf2, #07206be3);
+  background: linear-gradient(-75deg, #0c03bff2, #ed1656f8);
 
   > div {
     width: 100%;
